@@ -1,0 +1,3 @@
+module GarminFIT
+
+end #module
