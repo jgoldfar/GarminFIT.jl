@@ -18,6 +18,16 @@ GarminFIT.jl
 
 To Be Determined
 
+### Prior Art/Inspiration ###
+
+Previous work in reading and writing FIT files is plentiful (apparently reflecting interest in liberating this data!)
+
+* The OSS [GPS Babel](http://www.gpsbabel.org) reads and converts between many formats
+* [GPSprune](http://activityworkshop.net/software/gpsprune/) looks similar to the former; it supports reading and modifying/writing FIT files, through GPS Babel.
+* [python-fitparse](https://github.com/dtcooper/python-fitparse), though a few years old, should be a working Python implementation of a FIT file parser
+* The [official SDK](http://www.thisisant.com/resources/fit) appears to be open source, but not under a typical license. In particular, apparently the SDK available there can't be publically distributed as a part of this repository for reference purposes, and we must "maintain the features within the FIT protocol that provide for interoperability between systems and compatibility with previous and future release versions of the FIT protocol." We certainly aim for that, but at the same time, no direct modification of SDK source is expected.
+* Finally, a preliminary document available [here](http://pub.ks-and-ks.ne.jp/cycling/edge500_fit.shtml) gives a format specification based on a link that is now dead. The page itself and its contents is apparently open source/public domain.
+
 ### Who do I talk to? ###
 
 * Jonathan Goldfarb <jgoldfar@my.fit.edu>
